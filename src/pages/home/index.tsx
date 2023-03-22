@@ -1,3 +1,4 @@
+import React from 'react'
 import { Button } from 'antd-mobile'
 import styles from './index.module.less'
 import { useNavigate } from 'react-router-dom'
@@ -11,7 +12,7 @@ const Home = () => {
       <Button
         onClick={() => {
           navigate('/about', {
-            state: 1111,
+            state: 1111
           })
         }}
       >

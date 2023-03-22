@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import React, { ReactNode } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import routeList from './router'
 import Header from '@/components/header'
